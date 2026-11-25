@@ -1,0 +1,7 @@
+=== Demonstracia klassa Stroka ===
+s1 = laboratory (dlina 10)
+posle prisvaivaniya: s2 = laboratory (dlina 10)
+s3 = s1 + " work": laboratory work (dlina 15)
+s1 == s2 : ravny
+s1 == s3 : ne ravny
+Vvedite stroku (do 19 simvolov): s4 = test string (dlina 11)

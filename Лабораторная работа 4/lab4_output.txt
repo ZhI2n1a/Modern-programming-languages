@@ -1,0 +1,38 @@
+=== Пункт 1. Библиотечные функции string.h ===
+strlen(a) = 7, strlen(b) = 11
+strcpy: c = systems
+strcat: c = systemsprogramming
+strcmp(a, b) = 3 (a < b, буква s раньше p)
+strcmp(a, a) = 0 (равны)
+strcmp(b, a) = -3 (b > a)
+
+=== Пункт 2. Собственные варианты функций ===
+Строка: "laboratory work"
+длина (по индексам):   15
+длина (по указателю):  15
+длина (рекурсивно):    15
+копирование: "laboratory work"
+конкатенация: "laboratory work of system programming"
+сравнение "laboratory work" и " of system programming" -> 76
+сравнение "abc" и "abd" -> -1
+
+=== Пункт 3. Динамическая память, malloc ===
+копия в динамической памяти: "dynamic string" (длина 14)
+соединение: "first + second"
+сравнение копии и оригинала: 0
+
+=== Пункт 4. Динамическая память, calloc ===
+копия: "dynamic string"
+соединение: "first + second"
+сравнение результатов malloc- и calloc-версий: 0
+
+=== Пункт 5. Массив строк ===
+arr[0] = "dynamic", длина = 7
+arr[1] = "string", длина = 6
+arr[2] = "in", длина = 2
+arr[3] = "C++", длина = 3
+strcmp(arr[0], arr[1]) = -15
+strcmp(arr[1], arr[2]) = 10
+strcmp(arr[2], arr[3]) = 38
+конкатенация всего массива: "dynamic string in C++"
+её длина: 21

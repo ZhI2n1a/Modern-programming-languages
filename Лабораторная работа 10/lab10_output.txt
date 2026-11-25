@@ -1,0 +1,110 @@
+Nachalny spisok:       1 2 3 4 5 
+Posle dobavleniya 200: 1 2 3 4 5 200 
+Posle udaleniya 3:      1 2 4 5 200 
+Posle udaleniya 1:      2 4 5 200 
+Element 999 ne najden
+Spisok pustoj:          
+TList<int>:           10 20 30 40 50 
+Posle udaleniya 30:   10 20 40 50 
+TList<Man>:           Ivanov (25000) Petrov (31000) Sidorov (18000) 
+Posle udaleniya:      Ivanov (25000) Sidorov (18000) 
+Najdeno:              Sidorov (18000)
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 1
+Kolichestvo avtobusov: > n = 4
+nomer voditel marshrut: > 101 Ivanov_A.A. 5
+nomer voditel marshrut: > 102 Petrov_B.B. 7
+nomer voditel marshrut: > 103 Sidorov_V.V. 5
+nomer voditel marshrut: > 104 Kozlov_G.G. 12
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 4
+Avtobusy v parke:
+Nomer 101, voditel: Ivanov_A.A., marshrut: 5 Nomer 102, voditel: Petrov_B.B., marshrut: 7 Nomer 103, voditel: Sidorov_V.V., marshrut: 5 Nomer 104, voditel: Kozlov_G.G., marshrut: 12 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 2
+Nomer avtobusa: > nomer 102
+Avtobus 102 vyezzhaet na marshrut
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 4
+Avtobusy v parke:
+Nomer 101, voditel: Ivanov_A.A., marshrut: 5 Nomer 103, voditel: Sidorov_V.V., marshrut: 5 Nomer 104, voditel: Kozlov_G.G., marshrut: 12 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 5
+Avtobusy na marshrute:
+Nomer 102, voditel: Petrov_B.B., marshrut: 7 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 2
+Nomer avtobusa: > nomer 102
+Avtobusa 102 v parke net
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 3
+Nomer avtobusa: > nomer 102
+Avtobus 102 vozvrashaetsya v park
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 5
+Avtobusy na marshrute:
+
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 4
+Avtobusy v parke:
+Nomer 101, voditel: Ivanov_A.A., marshrut: 5 Nomer 103, voditel: Sidorov_V.V., marshrut: 5 Nomer 104, voditel: Kozlov_G.G., marshrut: 12 Nomer 102, voditel: Petrov_B.B., marshrut: 7 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 1
+Kolichestvo avtobusov: > n = 1
+nomer voditel marshrut: > 105 Dubinin_D.D. 8
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 4
+Avtobusy v parke:
+Nomer 101, voditel: Ivanov_A.A., marshrut: 5 Nomer 103, voditel: Sidorov_V.V., marshrut: 5 Nomer 104, voditel: Kozlov_G.G., marshrut: 12 Nomer 102, voditel: Petrov_B.B., marshrut: 7 Nomer 105, voditel: Dubinin_D.D., marshrut: 8 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 2
+Nomer avtobusa: > nomer 105
+Avtobus 105 vyezzhaet na marshrut
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 5
+Avtobusy na marshrute:
+Nomer 105, voditel: Dubinin_D.D., marshrut: 8 
+
+1 - nachalnoe formirovanie   2 - avtobus vyezzhaet
+3 - avtobus vuezhaet         4 - vyvod parna
+5 - vyvod marshrutov         0 - vyhod
+> komanda 0

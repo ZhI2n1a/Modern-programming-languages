@@ -1,0 +1,24 @@
+== 1. Stroka stream operators ==
+s1 = laboratory, len 10
+s1+s2 = laboratory work
+enter word: you entered: stream, len 6
+enter line: you entered: string input test
+s1 == 'laboratory'
+---- 2a. File streams ----
+line 1: first line
+line 2: second line
+line 3: third line
+---- 2b. String streams ----
+i=10 d=3.14 w=stream
+sum=13
+---- 2c. Stream state ----
+open missing file: fail=1
+open streams.txt: good=1
+== 3. Crypter on streams ==
+decrypted == original: YES (29 bytes)
+---- 4. Stream format methods ----
+*****123.457
+1.2e+02 (precision 2)
+ff in hex
+255 back to decimal
+read 'abc' as int: fail=1 -> after clear: good=1

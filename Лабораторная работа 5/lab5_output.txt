@@ -1,0 +1,50 @@
+=== Command: lab5 p lab5_test.txt  (вывод файла на экран) ===
+- 1 -
+Laboratory work five.
+File input and output demo.
+Second line of page one.
+
+
+- 2 -
+This is the second page.
+The keyword data is here: data and data.
+More text on page two.
+
+
+- 3 -
+The last page has no formfeed.
+Search shows: data at the end.
+
+=== Command: lab5 c lab5_test.txt  (подсчет пустых и непустых символов) ===
+Blank chars:     58
+Non-blank chars: 192
+
+=== Command: lab5 f lab5_test.txt data results.txt ===
+results.txt:
+line 9, position 13
+line 9, position 27
+line 9, position 36
+line 15, position 15
+total occurrences of "data": 4
+
+=== Command: lab5 m lab5_test.txt lab5_pages.txt  (перенос номеров страниц) ===
+lab5_pages.txt (\f показан как <FF>):
+Laboratory work five.
+File input and output demo.
+Second line of page one.
+
+1
+<FF>
+This is the second page.
+The keyword data is here: data and data.
+More text on page two.
+
+2
+<FF>
+The last page has no formfeed.
+Search shows: data at the end.
+3
+
+=== Commands: lab5 e lab5_test.txt enc.dat secret  и  lab5 e enc.dat dec.dat secret ===
+enc.dat (первые байты, hex): 5e455252487e3f04011d1715070a110b45031c170852031d05004d78231d1f00
+cmp dec.dat lab5_test.txt: files are identical (rc = 0)
